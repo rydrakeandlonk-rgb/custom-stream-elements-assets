@@ -1,0 +1,1 @@
+const f=window.widget||{};const root=document.querySelector('.monitor');if(root){root.style.display=f.showMonitor===false?'none':'block';if(f.left!=null)root.style.left=Number(f.left)+'px';if(f.top!=null)root.style.top=Number(f.top)+'px';if(f.width!=null)root.style.width=Number(f.width)+'px';if(f.height!=null)root.style.height=Number(f.height)+'px';}
