@@ -1,0 +1,22 @@
+{
+  "enabled": {
+    "type": "checkbox",
+    "label": "Enable recovery tracker",
+    "value": false
+  },
+  "target": {
+    "type": "text",
+    "label": "Recovery target label",
+    "value": "SALVAGE TARGET"
+  },
+  "current": {
+    "type": "number",
+    "label": "Current recovered value",
+    "value": 0
+  },
+  "goal": {
+    "type": "number",
+    "label": "Target recovered value",
+    "value": 10000
+  }
+}
