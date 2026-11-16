@@ -1,0 +1,12 @@
+{
+  "enabled": {
+    "type": "checkbox",
+    "label": "Enable creature database",
+    "value": false
+  },
+  "creatures": {
+    "type": "text",
+    "label": "Creature names (separate with commas)",
+    "value": "Creature 01, Creature 02, Creature 03, Creature 04"
+  }
+}
