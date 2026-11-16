@@ -1,0 +1,11 @@
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent}
+#widget{position:relative;width:1920px;height:1080px;overflow:hidden;background:transparent;font-family:Arial,sans-serif;color:#F0F0EC}
+
+#database{position:absolute;right:60px;top:150px;width:330px;padding:15px;background:#151b1fed;border:1px solid #657078;border-top:3px solid #e5b83f;box-shadow:0 8px 22px #0008}
+header{display:flex;justify-content:space-between;align-items:center;color:#f0f0ec;font-weight:900;letter-spacing:1.5px;font-size:14px}header small{font-size:9px;color:#e5b83f}
+.sub{font-size:9px;color:#9da8ae;letter-spacing:1px;margin:8px 0 12px}
+#entries{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.entry{padding:8px;background:#252e33;border:1px solid #465159;color:#c5cdd2;font-size:12px;cursor:pointer;display:flex;gap:7px;align-items:center;min-height:32px}
+.entry i{width:12px;height:12px;border:1px solid #859198;display:inline-grid;place-items:center;font-style:normal;font-size:9px}
+.entry.done{border-color:#83c78a;color:#83c78a;background:#1c2925}.entry.done i{background:#83c78a;color:#101417;border-color:#83c78a}
