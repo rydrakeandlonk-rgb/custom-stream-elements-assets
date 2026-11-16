@@ -1,0 +1,37 @@
+{
+  "enabled": {
+    "type": "checkbox",
+    "label": "Enable mission terminal",
+    "value": true
+  },
+  "operation": {
+    "type": "text",
+    "label": "Operation title",
+    "value": "OPERATION: RECOVERY"
+  },
+  "objective": {
+    "type": "text",
+    "label": "Current objective",
+    "value": "Secure valuable equipment and return to extraction."
+  },
+  "showProgress": {
+    "type": "checkbox",
+    "label": "Show progress bar",
+    "value": false
+  },
+  "progressLabel": {
+    "type": "text",
+    "label": "Progress label",
+    "value": "RECOVERY VALUE"
+  },
+  "progress": {
+    "type": "number",
+    "label": "Progress percentage",
+    "value": 0
+  },
+  "status": {
+    "type": "text",
+    "label": "Status label",
+    "value": "ACTIVE"
+  }
+}
