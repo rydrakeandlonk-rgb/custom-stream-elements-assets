@@ -5,11 +5,8 @@ Shared assets and reusable StreamElements resources for Spectrum broadcasts.
 ## Start here
 
 - **[Spectrum Stream Overlay Design System](docs/STREAM_OVERLAY_DESIGN_SYSTEM.md)** — brand rules, game-specific design process, layout modes and component standards.
-- **[StreamElements base template](templates/stream-elements/)** — reusable HTML, CSS and JavaScript for the four standard overlay elements:
-  1. Static/animated full-canvas background
-  2. Camera and gameplay plates
-  3. Custom chat
-  4. Goals, community activity and interactive information
+- **[StreamElements base template](templates/stream-elements/)** — reusable foundation for new overlays.
+- **[R.E.P.O. overlay](games/repo/README.md)** — game-specific design and seven-widget StreamElements implementation.
 
 ## Design principle
 
