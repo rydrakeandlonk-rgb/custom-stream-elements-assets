@@ -1,0 +1,27 @@
+{
+  "showMonitor": {
+    "type": "checkbox",
+    "label": "Show camera monitor",
+    "value": true
+  },
+  "left": {
+    "type": "number",
+    "label": "Left position (px)",
+    "value": 60
+  },
+  "top": {
+    "type": "number",
+    "label": "Top position (px)",
+    "value": 760
+  },
+  "width": {
+    "type": "number",
+    "label": "Monitor width (px)",
+    "value": 380
+  },
+  "height": {
+    "type": "number",
+    "label": "Monitor height (px)",
+    "value": 260
+  }
+}
