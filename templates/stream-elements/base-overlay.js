@@ -114,7 +114,10 @@ function normaliseActivity(listener, event) {
     "host-latest": ["HOST", "⌂"]
   };
 
-  const type = types[listener];
+  let type = types[listener];
+  if (listener === "subscriber-latest" && (data.gifted === true || data.isGift === true || data.bulkGifted === true)) {
+    type = ["GIFTED SUBS", "🎁"];
+  }
   if (!type) return null;
 
   let detail = message;
@@ -122,6 +125,7 @@ function normaliseActivity(listener, event) {
     if (listener === "cheer-latest") detail = String(amount) + " bits";
     else if (listener === "raid-latest") detail = String(amount) + " viewers";
     else if (listener === "tip-latest") detail = String(amount);
+    else if (listener === "subscriber-latest" && type[0] === "GIFTED SUBS") detail = String(amount) + " gifted";
     else if (listener === "subscriber-latest") detail = "Subscription";
   }
 
