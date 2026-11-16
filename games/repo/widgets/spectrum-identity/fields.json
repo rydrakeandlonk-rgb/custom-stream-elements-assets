@@ -1,0 +1,17 @@
+{
+  "enabled": {
+    "type": "checkbox",
+    "label": "Enable Spectrum identity",
+    "value": true
+  },
+  "streamerName": {
+    "type": "text",
+    "label": "Streamer name",
+    "value": "RYDRAKE"
+  },
+  "accent": {
+    "type": "colorpicker",
+    "label": "Streamer accent colour",
+    "value": "#E58A39"
+  }
+}
