@@ -1,0 +1,322 @@
+/* SPECTRUM STREAM OVERLAY - BASE CSS
+   Game-specific design belongs in the override section at the bottom.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --spectrum-purple: #9B6BD6;
+  --spectrum-orange: #E58A39;
+  --streamer-accent: var(--spectrum-orange);
+  --game-accent: #D8C18A;
+
+  --panel-bg: rgba(10, 17, 30, 0.82);
+  --panel-border: rgba(216, 193, 138, 0.72);
+  --text-main: #F3F2EE;
+  --text-muted: #B9C5D2;
+
+  --ui-font: 'Inter', Arial, sans-serif;
+  --display-font: 'Inter', Arial, sans-serif;
+
+  /* Coordinates are percentages of the 1920x1080 browser canvas. */
+  --game-left: 5%;
+  --game-top: 5%;
+  --game-width: 90%;
+  --game-height: 90%;
+
+  --camera-left: 75%;
+  --camera-top: 68%;
+  --camera-width: 20%;
+  --camera-height: 27%;
+
+  --chat-left: 2%;
+  --chat-top: 55%;
+  --chat-width: 22%;
+  --chat-height: 40%;
+
+  --info-left: 76%;
+  --info-top: 5%;
+  --info-width: 22%;
+  --info-height: 28%;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+body {
+  font-family: var(--ui-font);
+  color: var(--text-main);
+}
+
+.spectrum-overlay {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  isolation: isolate;
+  background: transparent;
+}
+
+/* BACKGROUND: choose image OR video in CONFIG. */
+.game-background,
+.game-background img,
+.game-background video,
+.background-fallback {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.game-background { z-index: -2; overflow: hidden; }
+.game-background img,
+.game-background video {
+  display: none;
+  object-fit: cover;
+  object-position: center;
+}
+.background-fallback {
+  z-index: -1;
+  background: radial-gradient(ellipse at center, #25344b 0%, #0b1220 78%);
+}
+
+/* PLATES: transparent centres let OBS sources show through. */
+.source-plate {
+  position: absolute;
+  border: 2px solid var(--panel-border);
+  border-radius: 12px;
+  background: transparent;
+  box-shadow: 0 5px 22px rgba(0,0,0,.24), inset 0 0 0 1px rgba(255,255,255,.08);
+  pointer-events: none;
+}
+
+.gameplay-plate {
+  left: var(--game-left);
+  top: var(--game-top);
+  width: var(--game-width);
+  height: var(--game-height);
+}
+
+.camera-plate {
+  left: var(--camera-left);
+  top: var(--camera-top);
+  width: var(--camera-width);
+  height: var(--camera-height);
+  border-color: var(--streamer-accent);
+}
+
+.plate-label {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: rgba(0,0,0,.55);
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  opacity: 0;
+}
+
+/* Keep labels hidden in the live design; enable temporarily for OBS alignment. */
+.spectrum-signature {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: white;
+  text-shadow: 0 2px 5px rgba(0,0,0,.65);
+  pointer-events: none;
+}
+
+.signature-mark {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px 3px 8px 3px;
+  background: linear-gradient(135deg, var(--spectrum-purple), var(--spectrum-orange));
+  font-family: var(--display-font);
+  font-weight: 900;
+}
+
+.signature-name {
+  font-family: var(--display-font);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.signature-streamer {
+  padding-left: 9px;
+  border-left: 1px solid var(--streamer-accent);
+  color: var(--streamer-accent);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .1em;
+}
+
+/* SHARED PANELS */
+.overlay-panel {
+  position: absolute;
+  padding: 14px;
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  background: var(--panel-bg);
+  box-shadow: 0 8px 24px rgba(0,0,0,.22);
+  overflow: hidden;
+}
+
+.panel-heading {
+  margin-bottom: 10px;
+  color: var(--game-accent);
+  font-family: var(--display-font);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+/* CHAT */
+.chat-panel {
+  left: var(--chat-left);
+  top: var(--chat-top);
+  width: var(--chat-width);
+  height: var(--chat-height);
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.chat-message {
+  font-size: 15px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  text-shadow: 0 1px 2px rgba(0,0,0,.7);
+}
+
+.chat-author {
+  color: var(--streamer-accent);
+  font-weight: 800;
+  margin-right: 5px;
+}
+
+.chat-text { color: var(--text-main); }
+
+/* GOALS + COMMUNITY */
+.info-panel {
+  left: var(--info-left);
+  top: var(--info-top);
+  width: var(--info-width);
+  height: var(--info-height);
+  display: flex;
+  flex-direction: column;
+}
+
+.goal-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.goal-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.goal-check {
+  flex: 0 0 15px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--game-accent);
+  border-radius: 3px;
+}
+
+.goal-row.is-complete .goal-check {
+  display: grid;
+  place-items: center;
+  background: var(--streamer-accent);
+  border-color: var(--streamer-accent);
+}
+
+.goal-row.is-complete .goal-check::after {
+  content: '✓';
+  color: #101010;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.goal-row.is-complete .goal-label {
+  color: var(--text-muted);
+  text-decoration: line-through;
+}
+
+.goal-label {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.activity-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,.12);
+}
+
+.activity-icon {
+  flex: 0 0 auto;
+  color: var(--game-accent);
+  font-size: 28px;
+}
+
+.activity-copy { min-width: 0; }
+.activity-type {
+  color: var(--text-muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.activity-name {
+  color: var(--text-main);
+  font-size: 16px;
+  font-weight: 800;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.activity-message {
+  color: var(--text-muted);
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* GAME-SPECIFIC OVERRIDES
+   Add per-game values below; do not change shared identity tokens without reason.
+*/
