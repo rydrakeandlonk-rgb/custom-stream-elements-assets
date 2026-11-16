@@ -1,0 +1,44 @@
+<!--
+  SPECTRUM STREAM OVERLAY - BASE TEMPLATE
+  Paste into the StreamElements HTML tab.
+  The game and camera captures remain separate OBS sources.
+-->
+<div id="spectrum-overlay" class="spectrum-overlay">
+  <div class="game-background" aria-hidden="true">
+    <img id="background-image" alt="">
+    <video id="background-video" muted autoplay loop playsinline></video>
+    <div class="background-fallback"></div>
+  </div>
+
+  <!-- Decorative plates only: align the OBS sources behind these areas. -->
+  <div class="source-plate gameplay-plate" id="gameplay-plate">
+    <span class="plate-label" id="gameplay-label">GAMEPLAY</span>
+  </div>
+  <div class="source-plate camera-plate" id="camera-plate">
+    <span class="plate-label" id="camera-label">CAMERA</span>
+  </div>
+
+  <div class="spectrum-signature" id="spectrum-signature">
+    <span class="signature-mark">S</span>
+    <span class="signature-name">SPECTRUM</span>
+    <span class="signature-streamer" id="streamer-name">RYDRAKE</span>
+  </div>
+
+  <section class="overlay-panel chat-panel" id="chat-panel" aria-label="Live chat">
+    <div class="panel-heading" id="chat-heading">CHAT</div>
+    <div id="chat-messages" class="chat-messages"></div>
+  </section>
+
+  <section class="overlay-panel info-panel" id="info-panel" aria-label="Goals and community activity">
+    <div class="panel-heading" id="info-heading">ADVENTURE LOG</div>
+    <div id="goal-list" class="goal-list"></div>
+    <div id="activity-card" class="activity-card">
+      <div id="activity-icon" class="activity-icon">✦</div>
+      <div class="activity-copy">
+        <div id="activity-type" class="activity-type">THE COMMUNITY</div>
+        <div id="activity-name" class="activity-name">Your next adventure starts here</div>
+        <div id="activity-message" class="activity-message"></div>
+      </div>
+    </div>
+  </section>
+</div>
