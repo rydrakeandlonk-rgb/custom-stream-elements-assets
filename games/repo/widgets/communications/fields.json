@@ -1,0 +1,27 @@
+{
+  "chatEnabled": {
+    "type": "checkbox",
+    "label": "Enable temporary chat",
+    "value": true
+  },
+  "alertsEnabled": {
+    "type": "checkbox",
+    "label": "Enable event notifications",
+    "value": true
+  },
+  "duration": {
+    "type": "number",
+    "label": "Chat message duration (seconds)",
+    "value": 12
+  },
+  "maxMessages": {
+    "type": "number",
+    "label": "Maximum visible messages (1–4)",
+    "value": 4
+  },
+  "alertDuration": {
+    "type": "number",
+    "label": "Notification duration (seconds)",
+    "value": 7
+  }
+}
