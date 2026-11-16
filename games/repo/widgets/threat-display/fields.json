@@ -1,0 +1,90 @@
+{
+  "enabled": {
+    "type": "checkbox",
+    "label": "Enable threat display",
+    "value": false
+  },
+  "selectedThreat": {
+    "type": "dropdown",
+    "label": "Selected threat",
+    "value": "slot1",
+    "options": [
+      {
+        "label": "Threat slot 1",
+        "value": "slot1"
+      },
+      {
+        "label": "Threat slot 2",
+        "value": "slot2"
+      },
+      {
+        "label": "Threat slot 3",
+        "value": "slot3"
+      },
+      {
+        "label": "Threat slot 4",
+        "value": "slot4"
+      }
+    ]
+  },
+  "name1": {
+    "type": "text",
+    "label": "Slot 1 name",
+    "value": ""
+  },
+  "class1": {
+    "type": "text",
+    "label": "Slot 1 classification",
+    "value": ""
+  },
+  "url1": {
+    "type": "text",
+    "label": "Slot 1 image/video URL",
+    "value": ""
+  },
+  "name2": {
+    "type": "text",
+    "label": "Slot 2 name",
+    "value": ""
+  },
+  "class2": {
+    "type": "text",
+    "label": "Slot 2 classification",
+    "value": ""
+  },
+  "url2": {
+    "type": "text",
+    "label": "Slot 2 image/video URL",
+    "value": ""
+  },
+  "name3": {
+    "type": "text",
+    "label": "Slot 3 name",
+    "value": ""
+  },
+  "class3": {
+    "type": "text",
+    "label": "Slot 3 classification",
+    "value": ""
+  },
+  "url3": {
+    "type": "text",
+    "label": "Slot 3 image/video URL",
+    "value": ""
+  },
+  "name4": {
+    "type": "text",
+    "label": "Slot 4 name",
+    "value": ""
+  },
+  "class4": {
+    "type": "text",
+    "label": "Slot 4 classification",
+    "value": ""
+  },
+  "url4": {
+    "type": "text",
+    "label": "Slot 4 image/video URL",
+    "value": ""
+  }
+}
