@@ -1,0 +1,898 @@
+12:23:57.689: CPU Name: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz
+12:23:57.689: CPU Speed: 3696MHz
+12:23:57.689: Physical Cores: 6, Logical Cores: 12
+12:23:57.689: Physical Memory: 16236MB Total, 6015MB Free
+12:23:57.689: Windows Version: 10.0 Build 19045 (release: 22H2; revision: 7807; 64-bit)
+12:23:57.690: Running as administrator: false
+12:23:57.690: Windows 10/11 Gaming Features:
+12:23:57.690: 	Game DVR: On
+12:23:57.690: 	Game Mode: Off
+12:23:57.691: Sec. Software Status:
+12:23:57.692: 	Microsoft Defender Antivirus: enabled (AV)
+12:23:57.692: 	Windows Firewall: enabled (FW)
+12:23:57.693: Current Date/Time: 2026-11-28, 12:23:57
+12:23:57.693: Browser Hardware Acceleration: true
+12:23:57.693: Hide OBS windows from screen capture: false
+12:23:57.693: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+12:23:57.693: Portable mode: false
+12:23:57.756: OBS 33.0.3 (64-bit, windows)
+12:23:57.756: ---------------------------------
+12:23:57.901: ---------------------------------
+12:23:57.901: audio settings reset:
+12:23:57.901: 	samples per sec: 48000
+12:23:57.901: 	speakers:        2
+12:23:57.901: 	max buffering:   960 milliseconds
+12:23:57.901: 	buffering type:  dynamically increasing
+12:23:57.903: ---------------------------------
+12:23:57.903: Initializing D3D11...
+12:23:57.903: Available Video Adapters: 
+12:23:57.905: 	Adapter 0: NVIDIA GeForce GTX 1080 Ti
+12:23:57.905: 	  Dedicated VRAM: 11645485056 (10.8 GiB)
+12:23:57.905: 	  Shared VRAM:    8512468992 (7.9 GiB)
+12:23:57.905: 	  PCI ID:         10de:1b06
+12:23:57.905: 	  HAGS Status:    Disabled (Default: No, Driver status: Supported)
+12:23:57.905: 	  Driver Version: 32.0.15.8278
+12:23:57.905: 	  output 0:
+12:23:57.905: 	    name=PHL 271V8B
+12:23:57.905: 	    pos={0, 0}
+12:23:57.905: 	    size={1920, 1080}
+12:23:57.905: 	    attached=true
+12:23:57.905: 	    refresh=60
+12:23:57.905: 	    bits_per_color=8
+12:23:57.905: 	    space=RGB_FULL_G22_NONE_P709
+12:23:57.905: 	    primaries=[r=(0.651367, 0.333984), g=(0.322266, 0.617188), b=(0.150391, 0.056641), wp=(0.313477, 0.329102)]
+12:23:57.905: 	    relative_gamut_area=[709=1.040394, P3=0.766949, 2020=0.550234]
+12:23:57.905: 	    sdr_white_nits=80
+12:23:57.905: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+12:23:57.905: 	    dpi=96 (100%)
+12:23:57.905: 	    id=\\?\DISPLAY#PHLC315#5&27fc026&0&UID8449#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:23:57.905: 	    alt_id=\\.\DISPLAY4
+12:23:57.906: 	Adapter 1: Intel(R) UHD Graphics 630
+12:23:57.906: 	  Dedicated VRAM: 134217728 (0.1 GiB)
+12:23:57.906: 	  Shared VRAM:    8512468992 (7.9 GiB)
+12:23:57.906: 	  PCI ID:         8086:3e92
+12:23:57.906: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+12:23:57.906: 	  Driver Version: 30.0.100.9805
+12:23:57.906: 	  output 0:
+12:23:57.906: 	    name=PHL 271V8B
+12:23:57.906: 	    pos={1920, 0}
+12:23:57.906: 	    size={1920, 1080}
+12:23:57.906: 	    attached=true
+12:23:57.906: 	    refresh=59
+12:23:57.906: 	    bits_per_color=8
+12:23:57.906: 	    space=RGB_FULL_G22_NONE_P709
+12:23:57.906: 	    primaries=[r=(0.651367, 0.333984), g=(0.322266, 0.617188), b=(0.150391, 0.056641), wp=(0.313477, 0.329102)]
+12:23:57.906: 	    relative_gamut_area=[709=1.040394, P3=0.766949, 2020=0.550234]
+12:23:57.906: 	    sdr_white_nits=80
+12:23:57.906: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+12:23:57.906: 	    dpi=96 (100%)
+12:23:57.906: 	    id=\\?\DISPLAY#PHLC315#4&1540260c&0&UID206371#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:23:57.906: 	    alt_id=\\.\DISPLAY1
+12:23:57.907: Loading up D3D11 on adapter NVIDIA GeForce GTX 1080 Ti (0)
+12:23:58.023: D3D11 loaded successfully, feature level used: b000
+12:23:58.023: DXGI increase maximum frame latency success
+12:23:58.023: D3D11 GPU priority setup failed (not admin?)
+12:23:58.106: ---------------------------------
+12:23:58.106: video settings reset:
+12:23:58.106: 	base resolution:   1920x1080
+12:23:58.106: 	output resolution: 1920x1080
+12:23:58.106: 	downscale filter:  Bicubic
+12:23:58.106: 	fps:               30/1
+12:23:58.106: 	format:            NV12
+12:23:58.106: 	YUV mode:          Rec. 709/Partial
+12:23:58.106: NV12 texture support enabled
+12:23:58.106: P010 texture support not available
+12:23:58.108: Audio monitoring device:
+12:23:58.108: 	name: Default
+12:23:58.108: 	id: default
+12:23:58.133: No AJA devices found, skipping loading AJA plugin
+12:23:58.133: Failed to initialize module 'aja.dll'
+12:23:58.134: No AJA devices found, skipping loading AJA UI plugin
+12:23:58.134: Failed to initialize module 'aja-output-ui.dll'
+12:23:58.135: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+12:23:58.137: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+12:23:58.137: Failed to initialize module 'decklink.dll'
+12:23:58.137: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+12:23:58.138: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+12:23:58.145: Failed to get C:\Program Files\NVIDIA Corporation\NVIDIA Audio Effects SDK\NVAudioEffects.dll version info size
+12:23:58.145: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+12:23:58.145: Failed to get C:\Program Files\NVIDIA Corporation\NVIDIA Video Effects\NVVideoEffects.dll version info size
+12:23:58.145: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+12:23:58.152: [obs-browser]: Chrome Runtime Default profile detected. No migration necessary.
+12:23:58.153: [obs-browser]: Version 2.27.6
+12:23:58.153: [obs-browser]: CEF Version 150.0.7871.287 (runtime), 150.0.30-7871_obsproject.3563+gabc1ece+chromium-150.0.7871.287 (compiled)
+12:23:58.326: [obs-nvenc] NVENC version: 13.0 (compiled) / 13.0 (driver), CUDA driver version: 13.0, AV1 supported: false
+12:23:58.689: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.6 | RPC Version: 1)
+12:23:58.689: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+12:23:58.689: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+12:23:58.695: [obs-websocket] [obs_module_load] Module loaded.
+12:23:58.699: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+12:23:58.723: ---------------------------------
+12:23:58.724: google_s2t_caption_plugin 0.33 obs_module_load -1700199620
+12:23:58.725: [Vertical Canvas] loaded version 1.6.4
+12:23:58.730: [adv-ss] version: 1.34.2
+12:23:58.730: [adv-ss] version: 8727a65513ecd06a8c50f99dc4eeb8fbb0323a23
+12:23:58.730: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-base.dll"
+12:23:58.731: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-base.dll"
+12:23:58.731: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-http.dll"
+12:23:58.733: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-http.dll"
+12:23:58.733: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-macro-schedule.dll"
+12:23:58.734: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-macro-schedule.dll"
+12:23:58.734: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-midi.dll"
+12:23:58.734: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-midi.dll"
+12:23:58.734: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-mqtt.dll"
+12:23:58.735: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-mqtt.dll"
+12:23:58.735: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-opencv.dll"
+12:23:58.741: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-opencv.dll"
+12:23:58.741: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-openvr.dll"
+12:23:58.742: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-openvr.dll"
+12:23:58.742: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-scripting.dll"
+12:23:58.743: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-scripting.dll"
+12:23:58.744: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-stream-deck.dll"
+12:23:58.744: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-stream-deck.dll"
+12:23:58.744: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-twitch.dll"
+12:23:58.745: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-twitch.dll"
+12:23:58.745: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-usb.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/advanced-scene-switcher-usb.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/libcrypto-3-x64.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/libcrypto-3-x64.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/libssl-3-x64.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/libssl-3-x64.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/libusb-1.0.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/libusb-1.0.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_calib3d4100.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_calib3d4100.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_core4100.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_core4100.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_features2d4100.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_features2d4100.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_flann4100.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_flann4100.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_imgproc4100.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_imgproc4100.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_objdetect4100.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/opencv_objdetect4100.dll"
+12:23:58.746: [adv-ss] attempting to load "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/openvr_api.dll"
+12:23:58.746: [adv-ss] successfully loaded "C:/ProgramData/obs-studio/plugins/advanced-scene-switcher/bin/64bit/advanced-scene-switcher-plugins/openvr_api.dll"
+12:23:58.752: ---------------------------------
+12:23:58.752:   Loaded Modules:
+12:23:58.752:     advanced-scene-switcher.dll
+12:23:58.752:     vertical-canvas.dll
+12:23:58.752:     obs_google_caption_plugin.dll
+12:23:58.752:     win-wasapi.dll
+12:23:58.752:     win-dshow.dll
+12:23:58.752:     win-capture.dll
+12:23:58.752:     vlc-video.dll
+12:23:58.752:     text-freetype2.dll
+12:23:58.752:     rtmp-services.dll
+12:23:58.752:     obs-x264.dll
+12:23:58.752:     obs-websocket.dll
+12:23:58.752:     obs-webrtc.dll
+12:23:58.752:     obs-vst.dll
+12:23:58.752:     obs-transitions.dll
+12:23:58.752:     obs-text.dll
+12:23:58.752:     obs-qsv11.dll
+12:23:58.752:     obs-outputs.dll
+12:23:58.752:     obs-nvenc.dll
+12:23:58.752:     obs-filters.dll
+12:23:58.752:     obs-ffmpeg.dll
+12:23:58.752:     obs-browser.dll
+12:23:58.752:     nv-filters.dll
+12:23:58.752:     image-source.dll
+12:23:58.752:     frontend-tools.dll
+12:23:58.752:     decklink-output-ui.dll
+12:23:58.752:     decklink-captions.dll
+12:23:58.752:     coreaudio-encoder.dll
+12:23:58.752: ---------------------------------
+12:23:58.753: [Vertical Canvas] Loaded configuration file
+12:23:58.772: [adv-ss] setupMidiDeviceObservers complete
+12:23:58.783: QLayout: Attempting to add QLayout "" to CanvasDock "contextContainer", which already has a layout
+12:23:58.797: google_s2t_caption_plugin 0.33 obs_module_post_load
+12:23:58.798: ---------------------------------
+12:23:58.798: Available Encoders:
+12:23:58.798:   Video Encoders:
+12:23:58.798: 	- ffmpeg_svt_av1 (SVT-AV1)
+12:23:58.798: 	- ffmpeg_aom_av1 (AOM AV1)
+12:23:58.798: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+12:23:58.798: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+12:23:58.798: 	- obs_qsv11_v2 (QuickSync H.264)
+12:23:58.798: 	- obs_qsv11_hevc (QuickSync HEVC)
+12:23:58.798: 	- obs_x264 (x264)
+12:23:58.798:   Audio Encoders:
+12:23:58.798: 	- ffmpeg_aac (FFmpeg AAC)
+12:23:58.798: 	- ffmpeg_opus (FFmpeg Opus)
+12:23:58.798: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+12:23:58.798: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+12:23:58.798: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+12:23:58.798: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+12:23:58.798: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+12:23:58.798: ==== Startup complete ===============================================
+12:23:58.863: All scene data cleared
+12:23:58.863: ------------------------------------------------
+12:23:58.866: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:23:58.866: Deduplication logic is being applied to all monitored sources.
+12:23:58.866: [win-wasapi: 'Desktop Audio'] update settings:
+12:23:58.866: 	device id: default
+12:23:58.866: 	use device timing: 1
+12:23:58.867: [Loaded global audio device]: 'Desktop Audio'
+12:23:58.867: [win-wasapi: 'Mic/Aux'] update settings:
+12:23:58.867: 	device id: {0.0.1.00000000}.{7c18bfda-18c1-42aa-97c1-2ae2090a1e10}
+12:23:58.867: 	use device timing: 0
+12:23:58.868: [Loaded global audio device]: 'Mic/Aux'
+12:23:58.868:     - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:23:58.868:     - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:23:58.881: WASAPI: Device 'Microphone (Yeti Orb)' [48000 Hz] initialized (source: Mic/Aux)
+12:23:58.881: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+12:23:58.881: Deduplication logic is being applied to all monitored sources.
+12:23:58.899: WASAPI: Device 'Speakers (2- JBL Quantum 360 Wireless Game)' [48000 Hz] initialized (source: Desktop Audio)
+12:23:58.906: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+12:23:58.906: 
+12:23:59.649: [win-wasapi: 'Game Capture (Audio)'] update settings:
+12:23:59.649: 	executable: REPO.exe
+12:23:59.649: 	title: R.E.P.O.
+12:23:59.649: 	class: UnityWndClass
+12:23:59.649: 	priority: 2
+12:23:59.651: [duplicator-monitor-capture: 'Dispaly Capture'] update settings:
+12:23:59.651: 	display: PHL 271V8B (1920x1080)
+12:23:59.651: 	cursor: true
+12:23:59.651: 	method: DXGI
+12:23:59.651: 	id: \\?\DISPLAY#PHLC315#5&27fc026&0&UID8449#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:23:59.651: 	alt_id: \\.\DISPLAY4
+12:23:59.651: 	setting_id: \\?\DISPLAY#PHLC315#5&27fc026&0&UID8449#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:23:59.651: 	force SDR: false
+12:23:59.652: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+12:23:59.653: WASAPI: Device '' failed to start (source: Game Capture (Audio))
+12:23:59.660: [win-wasapi: 'Discord'] update settings:
+12:23:59.660: 	executable: Discord.exe
+12:23:59.660: 	title: @AllNightLonk - Discord
+12:23:59.660: 	class: Chrome_WidgetWin_1
+12:23:59.660: 	priority: 2
+12:23:59.663: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' [48000 Hz] initialized (source: Discord)
+12:23:59.673: [Media Source 'Song ']: settings:
+12:23:59.673: 	input:                   C:/Users/aceau/Music/Twitch/Aisake, Dosi - Cruising [NCS Release].mp3
+12:23:59.673: 	input_format:            (null)
+12:23:59.673: 	speed:                   100
+12:23:59.673: 	is_looping:              yes
+12:23:59.673: 	is_linear_alpha:         no
+12:23:59.673: 	is_hw_decoding:          no
+12:23:59.673: 	is_clear_on_media_end:   yes
+12:23:59.673: 	restart_on_activate:     yes
+12:23:59.673: 	close_when_inactive:     no
+12:23:59.673: 	full_decode:             no
+12:23:59.673: 	ffmpeg_options:          
+12:23:59.676: [win-wasapi: 'Headphones'] update settings:
+12:23:59.676: 	device id: {0.0.0.00000000}.{e0dc24c3-2f78-442f-b0ab-618f962d6bdd}
+12:23:59.676: 	use device timing: 1
+12:23:59.676: [Media Source 'BeRightBackLoop']: settings:
+12:23:59.676: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Rydrake/Overlays/BeRightBack_EditedLoop.mp4
+12:23:59.676: 	input_format:            (null)
+12:23:59.676: 	speed:                   100
+12:23:59.676: 	is_looping:              yes
+12:23:59.676: 	is_linear_alpha:         no
+12:23:59.676: 	is_hw_decoding:          no
+12:23:59.676: 	is_clear_on_media_end:   no
+12:23:59.676: 	restart_on_activate:     yes
+12:23:59.676: 	close_when_inactive:     no
+12:23:59.676: 	full_decode:             no
+12:23:59.676: 	ffmpeg_options:          
+12:23:59.677: warning: Could not update timestamps for skipped samples.
+12:23:59.685: WASAPI: Device 'Headset Earphone (2- JBL Quantum 360 Wireless Chat)' [16000 Hz] initialized (source: Headphones)
+12:23:59.730: ---------------------------------
+12:23:59.730: [DShow Device: 'Camera'] settings updated: 
+12:23:59.730: 	video device: JBCW036
+12:23:59.730: 	video path: \\?\usb#vid_1bcf&pid_2286&mi_00#6&5c0855f&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+12:23:59.730: 	resolution: 1280x720
+12:23:59.730: 	flip: 0
+12:23:59.730: 	fps: 30.00 (interval: 333333)
+12:23:59.730: 	format: MJPEG
+12:23:59.730: 	buffering: disabled
+12:23:59.730: 	hardware decode: disabled
+12:23:59.815: 	using video device audio: no
+12:23:59.815: 	separate audio filter
+12:23:59.815: 	sample rate: 44100
+12:23:59.815: 	channels: 2
+12:23:59.815: 	audio type: Capture
+12:24:00.018: [Media Source 'Nugget']: settings:
+12:24:00.018: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Rydrake/Emotes/Nuggest Gif.gif
+12:24:00.018: 	input_format:            (null)
+12:24:00.018: 	speed:                   100
+12:24:00.018: 	is_looping:              yes
+12:24:00.018: 	is_linear_alpha:         no
+12:24:00.018: 	is_hw_decoding:          no
+12:24:00.018: 	is_clear_on_media_end:   yes
+12:24:00.018: 	restart_on_activate:     yes
+12:24:00.018: 	close_when_inactive:     no
+12:24:00.018: 	full_decode:             no
+12:24:00.018: 	ffmpeg_options:          
+12:24:00.019: [Media Source 'Pheeshy']: settings:
+12:24:00.019: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Rydrake/Emotes/Pheesh.gif
+12:24:00.019: 	input_format:            (null)
+12:24:00.019: 	speed:                   100
+12:24:00.019: 	is_looping:              yes
+12:24:00.019: 	is_linear_alpha:         no
+12:24:00.019: 	is_hw_decoding:          no
+12:24:00.019: 	is_clear_on_media_end:   yes
+12:24:00.019: 	restart_on_activate:     yes
+12:24:00.019: 	close_when_inactive:     no
+12:24:00.019: 	full_decode:             no
+12:24:00.019: 	ffmpeg_options:          
+12:24:00.033: [Media Source 'StartingSoonLoop']: settings:
+12:24:00.033: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Rydrake/Overlays/StartingSoonEditLoop.mp4
+12:24:00.033: 	input_format:            (null)
+12:24:00.033: 	speed:                   100
+12:24:00.033: 	is_looping:              yes
+12:24:00.033: 	is_linear_alpha:         no
+12:24:00.033: 	is_hw_decoding:          no
+12:24:00.033: 	is_clear_on_media_end:   yes
+12:24:00.033: 	restart_on_activate:     yes
+12:24:00.033: 	close_when_inactive:     no
+12:24:00.033: 	full_decode:             no
+12:24:00.033: 	ffmpeg_options:          
+12:24:00.033: [win-wasapi: 'Firefox'] update settings:
+12:24:00.033: 	executable: firefox.exe
+12:24:00.033: 	title: Insangel’s Stardew Valley Perfect Race Challenge - Google Docs — Mozilla Firefox
+12:24:00.033: 	class: MozillaWindowClass
+12:24:00.033: 	priority: 0
+12:24:00.034: [Media Source 'Gif1']: settings:
+12:24:00.034: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Random Assets/Stardew Valley/GreenJunimo.gif
+12:24:00.034: 	input_format:            (null)
+12:24:00.034: 	speed:                   20
+12:24:00.034: 	is_looping:              yes
+12:24:00.034: 	is_linear_alpha:         no
+12:24:00.034: 	is_hw_decoding:          no
+12:24:00.034: 	is_clear_on_media_end:   yes
+12:24:00.034: 	restart_on_activate:     yes
+12:24:00.034: 	close_when_inactive:     no
+12:24:00.034: 	full_decode:             no
+12:24:00.034: 	ffmpeg_options:          
+12:24:00.037: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' [48000 Hz] initialized (source: Firefox)
+12:24:00.056: [Media Source 'Gif2']: settings:
+12:24:00.056: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Random Assets/Stardew Valley/BoomerangStardrop.gif
+12:24:00.056: 	input_format:            (null)
+12:24:00.056: 	speed:                   100
+12:24:00.056: 	is_looping:              yes
+12:24:00.056: 	is_linear_alpha:         no
+12:24:00.056: 	is_hw_decoding:          no
+12:24:00.056: 	is_clear_on_media_end:   yes
+12:24:00.056: 	restart_on_activate:     yes
+12:24:00.056: 	close_when_inactive:     no
+12:24:00.056: 	full_decode:             no
+12:24:00.056: 	ffmpeg_options:          
+12:24:00.057: [Media Source 'Chicken']: settings:
+12:24:00.057: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Random Assets/Stardew Valley/CHicken.gif
+12:24:00.057: 	input_format:            (null)
+12:24:00.057: 	speed:                   100
+12:24:00.057: 	is_looping:              yes
+12:24:00.057: 	is_linear_alpha:         no
+12:24:00.057: 	is_hw_decoding:          no
+12:24:00.057: 	is_clear_on_media_end:   yes
+12:24:00.057: 	restart_on_activate:     yes
+12:24:00.057: 	close_when_inactive:     no
+12:24:00.057: 	full_decode:             no
+12:24:00.057: 	ffmpeg_options:          
+12:24:00.057: [Media Source 'Gif4']: settings:
+12:24:00.057: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Random Assets/Stardew Valley/BommerangTeal.gif
+12:24:00.057: 	input_format:            (null)
+12:24:00.057: 	speed:                   100
+12:24:00.057: 	is_looping:              yes
+12:24:00.057: 	is_linear_alpha:         no
+12:24:00.057: 	is_hw_decoding:          no
+12:24:00.057: 	is_clear_on_media_end:   yes
+12:24:00.057: 	restart_on_activate:     yes
+12:24:00.057: 	close_when_inactive:     no
+12:24:00.057: 	full_decode:             no
+12:24:00.057: 	ffmpeg_options:          
+12:24:00.058: [Media Source 'Gif 5']: settings:
+12:24:00.058: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Random Assets/Stardew Valley/OrangeJunimo.gif
+12:24:00.058: 	input_format:            (null)
+12:24:00.058: 	speed:                   100
+12:24:00.058: 	is_looping:              yes
+12:24:00.058: 	is_linear_alpha:         no
+12:24:00.058: 	is_hw_decoding:          no
+12:24:00.058: 	is_clear_on_media_end:   yes
+12:24:00.058: 	restart_on_activate:     yes
+12:24:00.058: 	close_when_inactive:     no
+12:24:00.058: 	full_decode:             no
+12:24:00.058: 	ffmpeg_options:          
+12:24:00.067: [Media Source 'Dinosaur']: settings:
+12:24:00.067: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Random Assets/Stardew Valley/pepper-rex-stardew-valley.gif
+12:24:00.067: 	input_format:            (null)
+12:24:00.067: 	speed:                   100
+12:24:00.067: 	is_looping:              yes
+12:24:00.067: 	is_linear_alpha:         no
+12:24:00.067: 	is_hw_decoding:          no
+12:24:00.067: 	is_clear_on_media_end:   yes
+12:24:00.067: 	restart_on_activate:     yes
+12:24:00.067: 	close_when_inactive:     no
+12:24:00.067: 	full_decode:             no
+12:24:00.067: 	ffmpeg_options:          
+12:24:00.090: [win-wasapi: 'Spotify'] update settings:
+12:24:00.090: 	executable: Spotify.exe
+12:24:00.090: 	title: Felipe Jara - Bubblegum K.K.
+12:24:00.090: 	class: Chrome_WidgetWin_1
+12:24:00.090: 	priority: 0
+12:24:00.093: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+12:24:00.094: WASAPI: Device '' failed to start (source: Spotify)
+12:24:00.094: [window-capture: 'Google Docs'] update settings:
+12:24:00.094: 	executable: firefox.exe
+12:24:00.094: 	method selected: Automatic
+12:24:00.094: 	method chosen: WGC
+12:24:00.094: 	force SDR: false
+12:24:00.110: [win-wasapi: 'Application Audio Capture (BETA)'] update settings:
+12:24:00.110: 	executable: Spotify.exe
+12:24:00.110: 	title: insaneintherainmusic - Opening Movie
+12:24:00.110: 	class: Chrome_WidgetWin_1
+12:24:00.110: 	priority: 0
+12:24:00.115: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+12:24:00.115: WASAPI: Device '' failed to start (source: Application Audio Capture (BETA))
+12:24:00.125: [duplicator-monitor-capture: 'Display Capture'] update settings:
+12:24:00.125: 	display: PHL 271V8B (1920x1080)
+12:24:00.125: 	cursor: true
+12:24:00.125: 	method: DXGI
+12:24:00.125: 	id: \\?\DISPLAY#PHLC315#5&27fc026&0&UID8449#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:24:00.125: 	alt_id: \\.\DISPLAY4
+12:24:00.125: 	setting_id: \\?\DISPLAY#PHLC315#5&27fc026&0&UID8449#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:24:00.125: 	force SDR: false
+12:24:00.155: warning: deprecated pixel format used, make sure you did set range correctly
+12:24:00.198: [win-wasapi: 'Stardew Valley Capture (Audio)'] update settings:
+12:24:00.198: 	executable: StardewModdingAPI.exe
+12:24:00.198: 	title: Stardew Valley 1.6.15 - running SMAPI 4.5.2 with 2 mods
+12:24:00.198: 	class: SDL_app
+12:24:00.198: 	priority: 2
+12:24:00.200: [Media Source 'EndSoonLoop']: settings:
+12:24:00.200: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Rydrake/Overlays/EndingSoon-Rydrake.mp4
+12:24:00.200: 	input_format:            (null)
+12:24:00.200: 	speed:                   100
+12:24:00.200: 	is_looping:              yes
+12:24:00.200: 	is_linear_alpha:         no
+12:24:00.200: 	is_hw_decoding:          no
+12:24:00.200: 	is_clear_on_media_end:   yes
+12:24:00.200: 	restart_on_activate:     yes
+12:24:00.200: 	close_when_inactive:     no
+12:24:00.200: 	full_decode:             no
+12:24:00.200: 	ffmpeg_options:          
+12:24:00.203: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+12:24:00.203: WASAPI: Device '' failed to start (source: Stardew Valley Capture (Audio))
+12:24:00.203: [Media Source 'Media']: settings:
+12:24:00.203: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Random Assets/League/hwei-the-visionary.960x540.mp4
+12:24:00.203: 	input_format:            (null)
+12:24:00.203: 	speed:                   50
+12:24:00.203: 	is_looping:              yes
+12:24:00.203: 	is_linear_alpha:         no
+12:24:00.203: 	is_hw_decoding:          no
+12:24:00.203: 	is_clear_on_media_end:   yes
+12:24:00.203: 	restart_on_activate:     yes
+12:24:00.203: 	close_when_inactive:     no
+12:24:00.203: 	full_decode:             no
+12:24:00.203: 	ffmpeg_options:          
+12:24:00.210: [duplicator-monitor-capture: 'Display Capture 2'] update settings:
+12:24:00.210: 	display: PHL 271V8B (1920x1080)
+12:24:00.210: 	cursor: true
+12:24:00.210: 	method: DXGI
+12:24:00.210: 	id: \\?\DISPLAY#PHLC315#5&27fc026&0&UID8449#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:24:00.210: 	alt_id: \\.\DISPLAY4
+12:24:00.210: 	setting_id: \\?\DISPLAY#PHLC315#5&27fc026&0&UID8449#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+12:24:00.210: 	force SDR: false
+12:24:00.336: Switched to scene 'Charity Overlay'
+12:24:00.337: save_or_load_event_callback 0, -1700199620
+12:24:00.643: unknown mute when setting: ''
+12:24:00.673: dock: 260 260 fs: 9
+12:24:00.673: target: 245 0
+12:24:00.688: ------------------------------------------------
+12:24:00.688: Loaded scenes:
+12:24:00.688: - scene 'Sora Starting Soon':
+12:24:00.688:     - source: 'Song ' (ffmpeg_source)
+12:24:00.688:     - source: 'StartingSoonLoop' (ffmpeg_source)
+12:24:00.688:     - source: 'Smol Chat' (browser_source)
+12:24:00.688:     - source: 'Stardew GIFs' (group) (disabled)
+12:24:00.688:         - filter: 'Color Key' (color_key_filter_v2)
+12:24:00.688:         - source: 'Gif1' (ffmpeg_source)
+12:24:00.688:         - source: 'Gif2' (ffmpeg_source)
+12:24:00.688:         - source: 'Chicken' (ffmpeg_source)
+12:24:00.688:         - source: 'Gif4' (ffmpeg_source)
+12:24:00.688:         - source: 'Gif 5' (ffmpeg_source)
+12:24:00.688:         - source: 'Dinosaur' (ffmpeg_source)
+12:24:00.688:     - source: 'Twitch Alerts' (group)
+12:24:00.688:         - source: 'General Alerts' (browser_source) (disabled)
+12:24:00.688:             - monitoring: enabled
+12:24:00.688:         - source: 'Channel Points - Basic' (browser_source) (disabled)
+12:24:00.688:         - source: 'Stream Alert ' (browser_source)
+12:24:00.688:             - monitoring: enabled
+12:24:00.688:         - source: 'Jumpscares' (browser_source)
+12:24:00.688:             - monitoring: enabled
+12:24:00.688:         - source: 'Stardew Alerts' (browser_source) (disabled)
+12:24:00.688:             - monitoring: enabled
+12:24:00.688: - scene 'Main Stream':
+12:24:00.688:     - source: 'Audio' (group)
+12:24:00.688:         - source: 'Firefox' (wasapi_process_output_capture) (disabled)
+12:24:00.688:         - source: 'Mic/Aux' (wasapi_input_capture)
+12:24:00.688:             - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:24:00.688:             - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:24:00.688:         - source: 'Song ' (ffmpeg_source)
+12:24:00.688:         - source: 'Headphones' (wasapi_output_capture)
+12:24:00.688:         - source: 'Discord' (wasapi_process_output_capture)
+12:24:00.688:         - source: 'Spotify' (wasapi_process_output_capture)
+12:24:00.688:     - source: 'Capture Devices' (group)
+12:24:00.688:         - source: 'Background' (image_source)
+12:24:00.688:         - source: 'Game Capture' (game_capture)
+12:24:00.688:         - source: 'Dispaly Capture' (monitor_capture) (disabled)
+12:24:00.688:         - source: 'Google Docs' (window_capture) (disabled)
+12:24:00.688:     - source: 'Camera Group' (group)
+12:24:00.688:         - source: 'Co-Host Text' (browser_source) (disabled)
+12:24:00.688:         - source: 'Camera' (dshow_input)
+12:24:00.688:         - source: 'Camera Border' (image_source)
+12:24:00.688:         - source: 'Stream Alert ' (browser_source) (disabled)
+12:24:00.688:             - monitoring: enabled
+12:24:00.688:     - source: 'Lex's Stream' (group)
+12:24:00.688:         - source: 'Lonks Stream' (browser_source) (disabled)
+12:24:00.688:     - source: 'Twitch' (group)
+12:24:00.689:         - source: 'General Alerts' (browser_source)
+12:24:00.689:             - monitoring: enabled
+12:24:00.689:         - source: 'WaveAlert' (browser_source) (disabled)
+12:24:00.689:         - source: 'Halloween Alerts' (browser_source)
+12:24:00.689:         - source: 'Chat' (browser_source)
+12:24:00.689:     - source: 'Misc Sources' (group)
+12:24:00.689:         - source: 'Jumpscares' (browser_source)
+12:24:00.689:             - monitoring: enabled
+12:24:00.689:         - source: 'Tarot Fader' (browser_source)
+12:24:00.689:         - source: 'Stardew Goals' (text_gdiplus_v3) (disabled)
+12:24:00.689:         - source: 'Town-Test' (browser_source) (disabled)
+12:24:00.689:     - source: 'REPO Board' (browser_source) (disabled)
+12:24:00.689:     - source: 'SoulLink' (browser_source) (disabled)
+12:24:00.689:     - source: 'Outlast Trials' (browser_source) (disabled)
+12:24:00.689: - scene 'Soulink Overlay':
+12:24:00.689:     - source: 'P-Audio' (group)
+12:24:00.689:         - source: 'Firefox' (wasapi_process_output_capture) (disabled)
+12:24:00.689:         - source: 'Mic/Aux' (wasapi_input_capture)
+12:24:00.689:             - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:24:00.689:             - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:24:00.689:         - source: 'Song ' (ffmpeg_source)
+12:24:00.689:         - source: 'Headphones' (wasapi_output_capture)
+12:24:00.689:         - source: 'Discord' (wasapi_process_output_capture)
+12:24:00.689:         - source: 'Spotify' (wasapi_process_output_capture)
+12:24:00.689:     - source: 'P-Display' (group)
+12:24:00.689:         - source: 'Background' (image_source)
+12:24:00.689:         - source: 'S-Plates' (browser_source) (disabled)
+12:24:00.689:         - source: 'Dispaly Capture' (monitor_capture) (disabled)
+12:24:00.689:         - source: 'Display Capture' (monitor_capture) (disabled)
+12:24:00.689:     - source: 'P-Camera' (group)
+12:24:00.689:         - source: 'Co-Host Text' (browser_source) (disabled)
+12:24:00.689:         - source: 'Camera' (dshow_input)
+12:24:00.689:         - source: 'Camera Border' (image_source)
+12:24:00.689:         - source: 'Stream Alert ' (browser_source) (disabled)
+12:24:00.689:             - monitoring: enabled
+12:24:00.689:     - source: 'P-Twitch' (group)
+12:24:00.689:         - source: 'General Alerts' (browser_source)
+12:24:00.689:             - monitoring: enabled
+12:24:00.689:         - source: 'WaveAlert' (browser_source) (disabled)
+12:24:00.689:         - source: 'Halloween Alerts' (browser_source)
+12:24:00.689:         - source: 'Jumpscares' (browser_source)
+12:24:00.689:             - monitoring: enabled
+12:24:00.689:     - source: 'Soullink Party Info' (browser_source)
+12:24:00.689:     - source: 'S-Chat' (browser_source)
+12:24:00.689:     - source: 'Death Counter' (browser_source)
+12:24:00.689:     - source: 'FDreaded' (group) (disabled)
+12:24:00.689:         - source: 'Dreaded-BPlate' (browser_source)
+12:24:00.689:         - source: 'Browser' (browser_source)
+12:24:00.689:     - source: 'Application Audio Capture (BETA)' (wasapi_process_output_capture)
+12:24:00.689: - scene 'Stardew Overlay':
+12:24:00.689:     - source: 'S-Audio' (group)
+12:24:00.689:         - source: 'Headphones' (wasapi_output_capture)
+12:24:00.689:         - source: 'Mic/Aux' (wasapi_input_capture)
+12:24:00.689:             - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:24:00.689:             - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:24:00.689:         - source: 'Spotify' (wasapi_process_output_capture)
+12:24:00.689:     - source: 'S-Dispaly' (group)
+12:24:00.689:         - source: 'S-Everything' (browser_source)
+12:24:00.689:         - source: 'S-Backdrop' (image_source)
+12:24:00.689:         - source: 'Camera' (dshow_input)
+12:24:00.689:         - source: 'Stardew Valley Capture' (game_capture) (disabled)
+12:24:00.689:         - source: 'Display Capture' (monitor_capture) (disabled)
+12:24:00.689:     - source: 'Alerts' (group)
+12:24:00.689:         - source: 'Jumpscares' (browser_source)
+12:24:00.689:             - monitoring: enabled
+12:24:00.689:         - source: 'Stardew Alerts' (browser_source)
+12:24:00.689:             - monitoring: enabled
+12:24:00.690:         - source: 'General Alerts' (browser_source)
+12:24:00.690:             - monitoring: enabled
+12:24:00.690:     - source: 'Stardew GIFs 4' (group) (disabled)
+12:24:00.690:         - filter: 'Color Key' (color_key_filter_v2)
+12:24:00.690:         - source: 'Gif1' (ffmpeg_source)
+12:24:00.690:         - source: 'Gif2' (ffmpeg_source)
+12:24:00.690:         - source: 'Chicken' (ffmpeg_source)
+12:24:00.690:         - source: 'Gif4' (ffmpeg_source)
+12:24:00.690:         - source: 'Gif 5' (ffmpeg_source)
+12:24:00.690:         - source: 'Dinosaur' (ffmpeg_source)
+12:24:00.690: - scene 'League Overlay':
+12:24:00.690:     - source: 'League Displays' (group)
+12:24:00.690:         - source: 'Media' (ffmpeg_source)
+12:24:00.690:         - source: 'Display Capture 2' (monitor_capture) (disabled)
+12:24:00.690:         - source: 'Game Capture' (game_capture)
+12:24:00.690:     - source: 'Camera Group 2' (group)
+12:24:00.690:         - source: 'Co-Host Text' (browser_source) (disabled)
+12:24:00.690:         - source: 'Camera' (dshow_input)
+12:24:00.690:         - source: 'Camera Border' (image_source) (disabled)
+12:24:00.690:         - source: 'Stream Alert ' (browser_source) (disabled)
+12:24:00.690:             - monitoring: enabled
+12:24:00.690:     - source: 'Audio 2' (group)
+12:24:00.690:         - source: 'Firefox' (wasapi_process_output_capture) (disabled)
+12:24:00.690:         - source: 'Mic/Aux' (wasapi_input_capture)
+12:24:00.690:             - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:24:00.690:             - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:24:00.690:         - source: 'Song ' (ffmpeg_source)
+12:24:00.690:         - source: 'Headphones' (wasapi_output_capture)
+12:24:00.690:         - source: 'Discord' (wasapi_process_output_capture)
+12:24:00.690:     - source: 'League Chat' (browser_source)
+12:24:00.690:     - source: 'Jumpscares' (browser_source)
+12:24:00.690:         - monitoring: enabled
+12:24:00.690:     - source: 'General Alerts' (browser_source)
+12:24:00.690:         - monitoring: enabled
+12:24:00.690: - scene 'Sora BRB':
+12:24:00.690:     - source: 'Song ' (ffmpeg_source)
+12:24:00.690:     - source: 'BeRightBackLoop' (ffmpeg_source)
+12:24:00.690:     - source: 'Smol Chat' (browser_source)
+12:24:00.690:     - source: 'Group' (group)
+12:24:00.690:         - source: 'Stream Alert ' (browser_source) (disabled)
+12:24:00.690:             - monitoring: enabled
+12:24:00.690:         - source: 'Stardew Alerts' (browser_source)
+12:24:00.690:             - monitoring: enabled
+12:24:00.690:     - source: 'Stardew GIFs 2' (group)
+12:24:00.690:         - filter: 'Color Key' (color_key_filter_v2)
+12:24:00.690:         - source: 'Gif1' (ffmpeg_source)
+12:24:00.690:         - source: 'Gif2' (ffmpeg_source)
+12:24:00.690:         - source: 'Chicken' (ffmpeg_source)
+12:24:00.690:         - source: 'Gif4' (ffmpeg_source)
+12:24:00.690:         - source: 'Gif 5' (ffmpeg_source)
+12:24:00.690:         - source: 'Dinosaur' (ffmpeg_source)
+12:24:00.690: - scene 'Charity Overlay':
+12:24:00.690:     - source: 'Audio 3' (group)
+12:24:00.690:         - source: 'Mic/Aux' (wasapi_input_capture)
+12:24:00.690:             - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:24:00.691:             - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:24:00.691:         - source: 'Headphones' (wasapi_output_capture) (disabled)
+12:24:00.691:         - source: 'Discord' (wasapi_process_output_capture)
+12:24:00.691:     - source: 'Capture Devices 2' (group)
+12:24:00.691:         - source: 'Background' (image_source)
+12:24:00.691:         - source: 'Game Capture' (game_capture)
+12:24:00.691:         - source: 'Dispaly Capture' (monitor_capture) (disabled)
+12:24:00.691:     - source: 'Camera Group 3' (group)
+12:24:00.691:         - source: 'Co-Host Text' (browser_source) (disabled)
+12:24:00.691:         - source: 'Camera' (dshow_input)
+12:24:00.691:         - source: 'Camera Border' (image_source)
+12:24:00.691:         - source: 'Stream Alert ' (browser_source) (disabled)
+12:24:00.691:             - monitoring: enabled
+12:24:00.691:     - source: 'Twitch 2' (group)
+12:24:00.691:         - source: 'General Alerts' (browser_source)
+12:24:00.691:             - monitoring: enabled
+12:24:00.691:         - source: 'Chat' (browser_source)
+12:24:00.691:         - source: 'Jumpscares' (browser_source)
+12:24:00.691:             - monitoring: enabled
+12:24:00.691:     - source: 'Browser 2' (browser_source)
+12:24:00.691:     - source: 'Browser 3' (browser_source) (disabled)
+12:24:00.691: - scene 'Stream Ended':
+12:24:00.691:     - source: 'Jumpscares' (browser_source)
+12:24:00.691:         - monitoring: enabled
+12:24:00.691:     - source: 'EndSoonLoop' (ffmpeg_source)
+12:24:00.691:     - source: 'Song ' (ffmpeg_source)
+12:24:00.691:     - source: 'Smol Chat' (browser_source)
+12:24:00.691:     - source: 'Stardew Alerts' (browser_source)
+12:24:00.691:         - monitoring: enabled
+12:24:00.691:     - source: 'Stardew GIFs 3' (group) (disabled)
+12:24:00.691:         - filter: 'Color Key' (color_key_filter_v2)
+12:24:00.691:         - source: 'Gif1' (ffmpeg_source)
+12:24:00.691:         - source: 'Gif2' (ffmpeg_source)
+12:24:00.691:         - source: 'Chicken' (ffmpeg_source)
+12:24:00.691:         - source: 'Gif4' (ffmpeg_source)
+12:24:00.691:         - source: 'Gif 5' (ffmpeg_source)
+12:24:00.691:         - source: 'Dinosaur' (ffmpeg_source)
+12:24:00.691: ------------------------------------------------
+12:24:00.776: NV12 texture support enabled
+12:24:00.776: P010 texture support not available
+12:24:00.777: [Media Source 'SpaceWarp (Stinger)']: settings:
+12:24:00.777: 	input:                   
+12:24:00.777: 	input_format:            (null)
+12:24:00.777: 	speed:                   100
+12:24:00.777: 	is_looping:              no
+12:24:00.777: 	is_linear_alpha:         no
+12:24:00.777: 	is_hw_decoding:          yes
+12:24:00.777: 	is_clear_on_media_end:   yes
+12:24:00.777: 	restart_on_activate:     yes
+12:24:00.777: 	close_when_inactive:     no
+12:24:00.777: 	full_decode:             no
+12:24:00.777: 	ffmpeg_options:          
+12:24:00.777: [Media Source 'Music (Stinger) (Stinger)']: settings:
+12:24:00.777: 	input:                   
+12:24:00.777: 	input_format:            (null)
+12:24:00.777: 	speed:                   100
+12:24:00.777: 	is_looping:              no
+12:24:00.777: 	is_linear_alpha:         no
+12:24:00.777: 	is_hw_decoding:          yes
+12:24:00.777: 	is_clear_on_media_end:   yes
+12:24:00.777: 	restart_on_activate:     yes
+12:24:00.777: 	close_when_inactive:     no
+12:24:00.777: 	full_decode:             no
+12:24:00.777: 	ffmpeg_options:          
+12:24:00.780: [Media Source 'OrangeWipe (Stinger)']: settings:
+12:24:00.780: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Rydrake/Alerts/Rydrake - Transition.mov
+12:24:00.780: 	input_format:            (null)
+12:24:00.780: 	speed:                   100
+12:24:00.780: 	is_looping:              no
+12:24:00.780: 	is_linear_alpha:         no
+12:24:00.780: 	is_hw_decoding:          yes
+12:24:00.780: 	is_clear_on_media_end:   yes
+12:24:00.780: 	restart_on_activate:     yes
+12:24:00.780: 	close_when_inactive:     no
+12:24:00.780: 	full_decode:             no
+12:24:00.780: 	ffmpeg_options:          
+12:24:00.783: [Media Source 'Halloween (Stinger)']: settings:
+12:24:00.783: 	input:                   C:/Users/aceau/OneDrive/Pictures/Twitch Art/Rydrake/Halloween/HalloweenTransition.mov
+12:24:00.783: 	input_format:            (null)
+12:24:00.783: 	speed:                   100
+12:24:00.783: 	is_looping:              no
+12:24:00.783: 	is_linear_alpha:         no
+12:24:00.783: 	is_hw_decoding:          yes
+12:24:00.783: 	is_clear_on_media_end:   yes
+12:24:00.783: 	restart_on_activate:     yes
+12:24:00.783: 	close_when_inactive:     no
+12:24:00.783: 	full_decode:             no
+12:24:00.783: 	ffmpeg_options:          
+12:24:00.942: ------------------------------------------------
+12:24:00.942: [Aitum Vertical] Canvas 'Aitum Vertical' scenes:
+12:24:00.942: - scene 'Vertical Scene':
+12:24:00.942:     - source: 'Background' (image_source)
+12:24:00.942:     - source: 'Game Capture' (game_capture)
+12:24:00.942:         - audio tracks: 1 2
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:     - source: 'Dispaly Capture' (monitor_capture)
+12:24:00.942:     - source: 'Headphones' (wasapi_output_capture)
+12:24:00.942:         - audio tracks: 1 2
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:     - source: 'Mic/Aux' (wasapi_input_capture)
+12:24:00.942:         - audio tracks: 1 2
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:         - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:24:00.942:         - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:24:00.942:     - source: 'Discord' (wasapi_process_output_capture)
+12:24:00.942:         - audio tracks: 1 2
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:     - source: 'Camera Group' (group)
+12:24:00.942:         - source: 'Co-Host Text' (browser_source)
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:         - source: 'Camera' (dshow_input)
+12:24:00.942:             - audio tracks: 1 2
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:         - source: 'Camera Border' (image_source)
+12:24:00.942:         - source: 'Stream Alert ' (browser_source)
+12:24:00.942:             - audio tracks: 1
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:             - monitoring: monitor and output
+12:24:00.942:     - source: 'Image' (image_source)
+12:24:00.942:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+12:24:00.942:     - source: 'Nugget' (ffmpeg_source)
+12:24:00.942:         - audio tracks: 1 2
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:     - source: 'Pheeshy' (ffmpeg_source)
+12:24:00.942:         - audio tracks: 1 2
+12:24:00.942: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:00.942:     - source: 'Icons' (image_source)
+12:24:00.942: ------------------------------------------------
+12:24:00.942: obs_frontent_scene_collection_changed
+12:24:01.110: [obs-browser: 'SoulLink'] Error: Loading the script 'https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' https://*.googletagmanager.com https://challenges.cloudflare.com". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. (https://soullinks.app/app/runs/4352:0)
+12:24:01.565: adding 85 milliseconds of audio buffering, total audio buffering is now 128 milliseconds (source: Camera)
+12:24:01.565: 
+12:24:03.594: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:24:05.384: [obs-browser: 'SoulLink'] Error: Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:06.694: [obs-browser: 'SoulLink'] Error: Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:07.467: [obs-browser: 'Outlast Trials'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6b053e2ca159ea2e23272d5f/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:07.473: [obs-browser: 'Outlast Trials'] Error: %c01:24:07.472 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:07.730: [obs-browser: 'Browser 2'] Error: %c01:24:07.729 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey VB70ujXTeAtPful3TlgaAviJwt-nHddhRuoQfxhxxKsHH6J8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/6a25067e41deed7355ddd4ed/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:07.735: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6abdc4e69ee3f2c8e76181cd/VB70ujXTeAtPful3TlgaAviJwt-nHddhRuoQfxhxxKsHH6J8:0)
+12:24:07.883: [obs-browser: 'Browser'] Error: Player stopping playback - error MasterPlaylist:11 (ErrorNotAvailable code 404 - Failed to load playlist) (https://assets.twitch.tv/assets/amazon-ivs-wasmworker.min-9e2e233d2a3a82ab632a.js:1)
+12:24:08.184: [obs-browser: 'Lonks Stream'] Error: Player stopping playback - error MasterPlaylist:11 (ErrorNotAvailable code 404 - Failed to load playlist) (https://assets.twitch.tv/assets/amazon-ivs-wasmworker.min-9e2e233d2a3a82ab632a.js:1)
+12:24:08.270: ------------------------------------------------
+12:24:08.270: [Aitum Vertical] Canvas 'Aitum Vertical' scenes:
+12:24:08.270: - scene 'Vertical Scene':
+12:24:08.270:     - source: 'Background' (image_source)
+12:24:08.270:     - source: 'Game Capture' (game_capture)
+12:24:08.270:         - audio tracks: 1 2
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:     - source: 'Dispaly Capture' (monitor_capture)
+12:24:08.270:     - source: 'Headphones' (wasapi_output_capture)
+12:24:08.270:         - audio tracks: 1 2
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:     - source: 'Mic/Aux' (wasapi_input_capture)
+12:24:08.270:         - audio tracks: 1 2
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:         - filter: 'Noise Suppression - Mic' (noise_suppress_filter_v2)
+12:24:08.270:         - filter: 'Noise Gate - Mic' (noise_gate_filter)
+12:24:08.270:     - source: 'Discord' (wasapi_process_output_capture)
+12:24:08.270:         - audio tracks: 1 2
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:     - source: 'Camera Group' (group)
+12:24:08.270:         - source: 'Co-Host Text' (browser_source)
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:         - source: 'Camera' (dshow_input)
+12:24:08.270:             - audio tracks: 1 2
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:         - source: 'Camera Border' (image_source)
+12:24:08.270:         - source: 'Stream Alert ' (browser_source)
+12:24:08.270:             - audio tracks: 1
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:             - monitoring: monitor and output
+12:24:08.270:     - source: 'Image' (image_source)
+12:24:08.270:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+12:24:08.270:     - source: 'Nugget' (ffmpeg_source)
+12:24:08.270:         - audio tracks: 1 2
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:     - source: 'Pheeshy' (ffmpeg_source)
+12:24:08.270:         - audio tracks: 1 2
+12:24:08.270: obs_source_get_monitoring_type is deprecated. Use obs_source_get_monitoring_enabled instead.
+12:24:08.270:     - source: 'Icons' (image_source)
+12:24:08.270: ------------------------------------------------
+12:24:08.270: OBS_FRONTEND_EVENT_FINISHED_LOADING, plugin_manager loaded: 1, 6.11.1
+12:24:08.270: enabled: 1, is_streaming 0, streaming_output_enabled 1, streaming_transcripts_enabled 0, is_streaming_relevant: 0, is_recording 0, recording_output_enabled 0, recording_transcripts_enabled 0, is_recording_relevant: 0, is_virtualcam_on 0, virtualcam_transcripts_enabled 0, is_virtualcam_relevant 0, is_preview_open 0, is_text_output_relevant 0, is_file_output_relevant 0, scene_collection_name: , source:  'Mic/Aux', equal_settings 1, do_captioning 0
+12:24:08.270: settings changed, disabling captioning
+12:24:08.338: [obs-browser: 'WaveAlert'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6a41a3acf1bf87bbaceae422/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:08.465: Max audio buffering reached!
+12:24:08.465: adding 832 milliseconds of audio buffering, total audio buffering is now 960 milliseconds (source: Headphones)
+12:24:08.465: 
+12:24:08.839: [obs-browser: 'S-Plates'] Error: %c01:24:08.838 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:08.852: [obs-browser: 'S-Plates'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6af56c2351b5fbf6e17d95fe/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:09.069: [obs-browser: 'Soullink Party Info'] Error: %c01:24:09.068 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:09.076: [obs-browser: 'Soullink Party Info'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6af532ba15ab4083a53659c2/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:10.104: [obs-browser: 'Tarot Fader'] Error: %c01:24:10.102 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:10.106: [obs-browser: 'Tarot Fader'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6abde2d6e575f400350b6af6/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:10.768: [obs-browser: 'S-Everything'] Error: %c01:24:10.767 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:10.775: [obs-browser: 'S-Everything'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6af6436d1c61c81811a2b58a/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:11.099: [obs-browser: 'REPO Board'] Error: %c01:24:11.097 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:11.106: [obs-browser: 'REPO Board'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6aed85439b2168e53a3c91ec/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:11.639: [obs-browser: 'S-Chat'] Error: %c01:24:11.638 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:11.640: [obs-browser: 'S-Chat'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6af62a72990cf45e194a67cb/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:12.288: [obs-browser: 'League Chat'] Error: %c01:24:12.287 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:12.305: [obs-browser: 'League Chat'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6b07dbb519866c0f145ee225/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:13.319: [obs-browser: 'Dreaded-BPlate'] Error: %c01:24:13.318 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:13.338: [obs-browser: 'Dreaded-BPlate'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6af56c2351b5fbf6e17d95fe/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:13.718: [obs-browser: 'SoulLink'] Error: Blocked script execution in 'about:blank' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:13.774: [obs-browser: 'Death Counter'] Error: Uncaught (in promise) #<Object> (https://streamelements.com/overlay/6af56e509e8ca165257f7bde/e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8:0)
+12:24:13.779: [obs-browser: 'Death Counter'] Error: %c01:24:13.778 %cERR%c %coverlays·angular %c%o color: gray; background-color: red; color: white; background-color: default; color: gray; color: default; {"data":{"statusCode":429,"error":"Too Many Requests"},"status":429,"config":{"method":"GET","transformRequest":[null],"transformResponse":[null],"jsonpCallbackParam":"callback","headers":{"Authorization":"apikey e3YtLbpjJaRQEKUkmSbPbot9xgANCkmIvWceEfPSworcCv-8","Accept":"application/json, text/plain, */*"},"url":"https://api.streamelements.com/kappa/v2/widgets/67a59e34660492514d8de5e4/bits/cheermotes"},"statusText":"","xhrStatus":"complete"} (https://streamelements.com/overlay/assets/index-BnTcIESo.js:2470)
+12:24:13.838: [obs-browser: 'SoulLink'] Error: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:13.841: [obs-browser: 'SoulLink'] Error: %c%d font-size:0;color:transparent NaN (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:13.842: [obs-browser: 'SoulLink'] Error: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:13.842: [obs-browser: 'SoulLink'] Error: %c%o font-size:0;color:transparent [object Object] (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:16.118: [obs-browser: 'SoulLink'] Error: Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been blocked. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:16.118: [obs-browser: 'SoulLink'] Error: Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been blocked. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:16.118: [obs-browser: 'SoulLink'] Error: Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been blocked. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:24:16.118: [obs-browser: 'SoulLink'] Error: Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy. (https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/k2lrh/0x4AAAAAACpas00w0HvpECa3/dark/fbE/new/normal?lang=auto:1)
+12:25:29.170: save_or_load_event_callback 1, -1700199620
+12:25:29.170: obs save event
+12:25:29.919: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:26:02.695: save_or_load_event_callback 1, -1700199620
+12:26:02.695: obs save event
+12:26:03.388: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:26:23.456: save_or_load_event_callback 1, -1700199620
+12:26:23.456: obs save event
+12:26:24.111: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:26:32.269: save_or_load_event_callback 1, -1700199620
+12:26:32.269: obs save event
+12:26:33.124: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:26:37.667: save_or_load_event_callback 1, -1700199620
+12:26:37.668: obs save event
+12:26:38.317: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:26:43.020: save_or_load_event_callback 1, -1700199620
+12:26:43.020: obs save event
+12:26:43.720: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:26:50.094: save_or_load_event_callback 1, -1700199620
+12:26:50.094: obs save event
+12:26:50.727: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:27:12.655: save_or_load_event_callback 1, -1700199620
+12:27:12.655: obs save event
+12:27:13.332: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:27:23.799: save_or_load_event_callback 1, -1700199620
+12:27:23.799: obs save event
+12:27:24.426: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:27:31.002: Switched to scene 'Charity Overlay'
+12:27:31.395: Switched to scene 'Charity Overlay'
+12:27:32.189: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
+12:27:38.089: save_or_load_event_callback 1, -1700199620
+12:27:38.089: obs save event
+12:27:38.879: [obs-browser: 'Browser 2'] Error: Uncaught (in promise) AbortError: The play() request was interrupted by a new load request. https://goo.gl/LdLk22 (https://streamelements.com/overlay/assets/index-BnTcIESo.js:1)
